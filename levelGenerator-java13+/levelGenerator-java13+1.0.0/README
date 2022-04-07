@@ -1,0 +1,54 @@
+# Level generation using CA
+ !! do not rename directories or files !!
+For opening source code read attached instruction file 
+
+Set properties in MetaData class
+## class MetaData
+ITERATION_COUNT - Number of global configuration changes from initial random state(MIN = 0, MAX = Not defined)
+MAX_HEIGHT - Height of defined lattice (grid) (MIN = 10, MAX = Not defined)
+MAX_WIDTH - Width of defined lattice (grid) (MIN = 10, MAX = NOt defined) *** Consider width of console!***
+GRID_DENSITY - Probability of cell being alive in initial state (MIN = 0, MAX = 100)
+NEIGHBORHOOD - Type of cell neighborhood - MOORE
+                                         - NEUMANN
+                                         - DEFAULT
+// layer settings 
+ 4 available layers : for each choose 2 states and density for dominant state ( dominant variable is marked with comment )
+
+check() - initial check of variables before running main code Throws InvalidArgument
+
+## Tiles
+  /State        /char     /ascii
+    ALIVE    =   1          49
+    DEAD     =   0          48
+    LAND     =   L          76
+    LAVA     =   #          35 
+    WATER    =   W          87
+    SAND     =   S          83
+    STONE    =   X          88
+    EMPTY    =  '.'         46
+    DEFAULT  =  ' '         32
+
+## Rules
+  'current state of cell is defined by cell in the middle of neighborhood'
+  # by default current cell is not considered a valid member of neighborhood
+
+  - if current state is majority in neighborhood, cell survives -> state is not changing
+  - if current state is not majority state in neighborhood -> new state depends of chance to survive, stochastic rule
+
+  # Chance to survive
+     C(s) / C
+     C(s) - number of cells in neighborhood with state same as current state
+     C    - number of all cells
+     !! current cell is not valid member so it is ignored
+
+## OutputHandler
+  program produces two same name files (name can be changed in Metadata class)
+  .txt file contains 2d map made from chars - can be used later in engine
+  .png file contains png map of .txt file, chars are replaced with textures
+
+# Custom state and texture
+   Adding new state and texture
+   automaton/enums - add new enum name for state
+   automaton/objects/State - add new switch case for new enum
+   ../Textures - place .png file preferably 120x120px // 12x12 cube made of 10x10px cubes
+   automaton/output/ImageGenerator - load new texture and add case in switch

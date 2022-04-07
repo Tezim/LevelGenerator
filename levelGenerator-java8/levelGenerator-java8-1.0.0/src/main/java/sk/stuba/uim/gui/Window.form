@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="sk.stuba.uim.gui.Window">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="766" height="779"/>
+    </constraints>
+    <properties>
+      <background color="-16773081"/>
+    </properties>
+    <border type="line">
+      <color color="-16724501"/>
+    </border>
+    <children>
+      <grid id="56ad0" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="0" bottom="10" right="30"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-16770238"/>
+          <foreground color="-131585"/>
+        </properties>
+        <border type="etched"/>
+        <children>
+          <component id="64a0e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10590589"/>
+              <foreground color="-1576193"/>
+              <text value="Názov výstupného súboru"/>
+            </properties>
+          </component>
+          <component id="d9403" class="javax.swing.JTextField" binding="filenameTextField" default-binding="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-6906199"/>
+              <columns value="15"/>
+              <horizontalAlignment value="10"/>
+              <text value="filename"/>
+            </properties>
+          </component>
+          <component id="19623" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10590589"/>
+              <foreground color="-1445121"/>
+              <text value="Šírka"/>
+            </properties>
+          </component>
+          <component id="229bc" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10590589"/>
+              <foreground color="-1445121"/>
+              <text value="Počet iterácií"/>
+            </properties>
+          </component>
+          <component id="a2a02" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10590589"/>
+              <foreground color="-262657"/>
+              <text value="Výška"/>
+            </properties>
+          </component>
+          <component id="6bb4d" class="javax.swing.JTextField" binding="iterationsTextField" default-binding="true">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-6906199"/>
+              <text value="iterations"/>
+            </properties>
+          </component>
+          <component id="141a6" class="javax.swing.JTextField" binding="heightTextField" default-binding="true">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-6906199"/>
+              <text value="height min 10"/>
+            </properties>
+          </component>
+          <component id="d0052" class="javax.swing.JTextField" binding="widthTextField" default-binding="true">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-6906199"/>
+              <text value="width min 10"/>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+          <hspacer id="6530e">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="1" use-parent-layout="false">
+                <minimum-size width="1" height="1"/>
+                <preferred-size width="1" height="1"/>
+                <maximum-size width="1" height="1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <grid id="7d9c0" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16770238"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="3628b" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16770238"/>
+                </properties>
+                <border type="line" title="vrstva 01" title-justification="1">
+                  <font name="JetBrains Mono"/>
+                  <title-color color="-16724501"/>
+                  <color color="-16724501"/>
+                </border>
+                <children>
+                  <component id="fc50c" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-1379585"/>
+                      <labelFor value="5ef30"/>
+                      <text value="Stav 1"/>
+                      <verticalAlignment value="0"/>
+                    </properties>
+                  </component>
+                  <component id="ffde8" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-1540"/>
+                      <text value="Stav 2"/>
+                    </properties>
+                  </component>
+                  <component id="649f7" class="javax.swing.JComboBox" binding="stav2_L1">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16773081"/>
+                      <font name="JetBrains Mono"/>
+                      <foreground color="-1379585"/>
+                      <model>
+                        <item value="DEFAULT"/>
+                        <item value="WATER"/>
+                        <item value="LAND"/>
+                        <item value="LAVA"/>
+                        <item value="SAND"/>
+                        <item value="EMPTY"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="5ef30" class="javax.swing.JComboBox" binding="stav1_L1">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16773081"/>
+                      <font name="JetBrains Mono"/>
+                      <foreground color="-1510913"/>
+                      <model>
+                        <item value="DEFAULT"/>
+                        <item value="WATER"/>
+                        <item value="LAND"/>
+                        <item value="LAVA"/>
+                        <item value="SAND"/>
+                        <item value="EMPTY"/>
+                      </model>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="14bc2" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16770238"/>
+                </properties>
+                <border type="line" title="vrstva 04" title-justification="1">
+                  <font name="JetBrains Mono"/>
+                  <title-color color="-16724501"/>
+                  <color color="-16724501"/>
+                </border>
+                <children>
+                  <component id="ac809" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-1379585"/>
+                      <labelFor value="5ef30"/>
+                      <text value="Stav 1"/>
+                      <verticalAlignment value="0"/>
+                    </properties>
+                  </component>
+                  <component id="fd3f7" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-1540"/>
+                      <text value="Stav 2"/>
+                    </properties>
+                  </component>
+                  <component id="5734d" class="javax.swing.JComboBox" binding="stav2_L4">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16773081"/>
+                      <font name="JetBrains Mono"/>
+                      <foreground color="-1379585"/>
+                      <model>
+                        <item value="DEFAULT"/>
+                        <item value="WATER"/>
+                        <item value="LAND"/>
+                        <item value="LAVA"/>
+                        <item value="SAND"/>
+                        <item value="EMPTY"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="eb0e2" class="javax.swing.JComboBox" binding="stav1_L4">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16773081"/>
+                      <font name="JetBrains Mono"/>
+                      <foreground color="-1510913"/>
+                      <model>
+                        <item value="DEFAULT"/>
+                        <item value="WATER"/>
+                        <item value="LAND"/>
+                        <item value="LAVA"/>
+                        <item value="SAND"/>
+                        <item value="EMPTY"/>
+                      </model>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="a03ea" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16770238"/>
+                </properties>
+                <border type="line" title="vrstva 02" title-justification="1">
+                  <font name="JetBrains Mono"/>
+                  <title-color color="-16724501"/>
+                  <color color="-16724501"/>
+                </border>
+                <children>
+                  <component id="b6775" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-1379585"/>
+                      <labelFor value="5ef30"/>
+                      <text value="Stav 1"/>
+                      <verticalAlignment value="0"/>
+                    </properties>
+                  </component>
+                  <component id="28d02" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-1540"/>
+                      <text value="Stav 2"/>
+                    </properties>
+                  </component>
+                  <component id="ccd6a" class="javax.swing.JComboBox" binding="stav2_L2">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16773081"/>
+                      <font name="JetBrains Mono"/>
+                      <foreground color="-1379585"/>
+                      <model>
+                        <item value="DEFAULT"/>
+                        <item value="WATER"/>
+                        <item value="LAND"/>
+                        <item value="LAVA"/>
+                        <item value="SAND"/>
+                        <item value="EMPTY"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="d83ec" class="javax.swing.JComboBox" binding="stav1_L2">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16773081"/>
+                      <font name="JetBrains Mono"/>
+                      <foreground color="-1510913"/>
+                      <model>
+                        <item value="DEFAULT"/>
+                        <item value="WATER"/>
+                        <item value="LAND"/>
+                        <item value="LAVA"/>
+                        <item value="SAND"/>
+                        <item value="EMPTY"/>
+                      </model>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="d501f" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16770238"/>
+                </properties>
+                <border type="line" title="vrstva 03" title-justification="1">
+                  <font name="JetBrains Mono"/>
+                  <title-color color="-16724501"/>
+                  <color color="-16724501"/>
+                </border>
+                <children>
+                  <component id="9b35c" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-1379585"/>
+                      <labelFor value="5ef30"/>
+                      <text value="Stav 1"/>
+                      <verticalAlignment value="0"/>
+                    </properties>
+                  </component>
+                  <component id="9e58" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-1540"/>
+                      <text value="Stav 2"/>
+                    </properties>
+                  </component>
+                  <component id="900eb" class="javax.swing.JComboBox" binding="stav2_L3">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16773081"/>
+                      <font name="JetBrains Mono"/>
+                      <foreground color="-1379585"/>
+                      <model>
+                        <item value="DEFAULT"/>
+                        <item value="WATER"/>
+                        <item value="LAND"/>
+                        <item value="LAVA"/>
+                        <item value="SAND"/>
+                        <item value="EMPTY"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="2d751" class="javax.swing.JComboBox" binding="stav1_L3">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16773081"/>
+                      <font name="JetBrains Mono"/>
+                      <foreground color="-1510913"/>
+                      <model>
+                        <item value="DEFAULT"/>
+                        <item value="WATER"/>
+                        <item value="LAND"/>
+                        <item value="LAVA"/>
+                        <item value="SAND"/>
+                        <item value="EMPTY"/>
+                      </model>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="6350f" binding="sliderpanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="20" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16773081"/>
+            </properties>
+            <border type="etched"/>
+            <children>
+              <grid id="760fe" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="30" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16773081"/>
+                </properties>
+                <border type="etched"/>
+                <children>
+                  <component id="4b5ce" class="javax.swing.JSlider" binding="slider3" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16773081"/>
+                      <enabled value="true"/>
+                      <foreground color="-9489726"/>
+                      <value value="0"/>
+                    </properties>
+                    <clientProperties>
+                      <Slider.paintThumbArrowShape class="java.lang.Boolean" value="false"/>
+                    </clientProperties>
+                  </component>
+                  <component id="c94c4" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="JetBrains Mono"/>
+                      <foreground color="-1379585"/>
+                      <text value="Hustota : "/>
+                    </properties>
+                  </component>
+                  <component id="2cc28" class="javax.swing.JLabel" binding="d03">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="JetBrains Mono" style="1"/>
+                      <foreground color="-1445377"/>
+                      <text value="0"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="8e220" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="25" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16773081"/>
+                </properties>
+                <border type="etched"/>
+                <children>
+                  <component id="e0515" class="javax.swing.JSlider" binding="slider4" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16773081"/>
+                      <foreground color="-9489726"/>
+                      <paintTicks value="false"/>
+                      <paintTrack value="true"/>
+                      <snapToTicks value="false"/>
+                      <toolTipText value="0"/>
+                      <value value="0"/>
+                    </properties>
+                  </component>
+                  <component id="7254f" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="JetBrains Mono"/>
+                      <foreground color="-1379585"/>
+                      <text value="Hustota :"/>
+                    </properties>
+                  </component>
+                  <component id="f3e0c" class="javax.swing.JLabel" binding="d04">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="JetBrains Mono" style="1"/>
+                      <foreground color="-1510657"/>
+                      <text value="0"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="28597" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="25" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16773081"/>
+                </properties>
+                <border type="etched"/>
+                <children>
+                  <component id="4c9bb" class="javax.swing.JSlider" binding="slider2" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16773081"/>
+                      <foreground color="-9489726"/>
+                      <value value="0"/>
+                    </properties>
+                  </component>
+                  <component id="61365" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="JetBrains Mono"/>
+                      <foreground color="-1445121"/>
+                      <text value="Hustota : "/>
+                    </properties>
+                  </component>
+                  <component id="2b6cf" class="javax.swing.JLabel" binding="d02">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="JetBrains Mono" style="1"/>
+                      <foreground color="-1510657"/>
+                      <text value="0"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="55ffe" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16773081"/>
+                </properties>
+                <border type="etched"/>
+                <children>
+                  <component id="1f57c" class="javax.swing.JSlider" binding="slider1" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16773081"/>
+                      <foreground color="-9489726"/>
+                      <inverted value="false"/>
+                      <snapToTicks value="false"/>
+                      <value value="0"/>
+                    </properties>
+                  </component>
+                  <component id="7ce0c" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="JetBrains Mono"/>
+                      <foreground color="-1445121"/>
+                      <text value="Hustota :"/>
+                    </properties>
+                  </component>
+                  <component id="8a409" class="javax.swing.JLabel" binding="d01">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="JetBrains Mono" style="1"/>
+                      <foreground color="-1445377"/>
+                      <text value="0"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="166f9" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16773081"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="93d79" class="javax.swing.JButton" binding="startButton">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Start"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="ee14d" class="javax.swing.JCheckBox" binding="picture">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16773081"/>
+              <foreground color="-1445377"/>
+              <text value="Obrazový výstup"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="b92de" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-16773081"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f69a" class="javax.swing.JButton" binding="pomocButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <foreground color="-1576193"/>
+              <opaque value="true"/>
+              <text value="Nápoveda"/>
+            </properties>
+          </component>
+          <hspacer id="6cd36">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,9 @@
+Create new empty "example" project in your IDE.
+(Note: specify correct java JDK,SDK)
+Pure Java
+- replace src folder in "example" project with provided src folder
+- put Textures folder into your "example" project folder
+Maven project
+- replace src folder in "example" project with provided src folder
+- put Textures folder into your "example" project folder
+- replace pom.xml file with provided pom.xml file (specify corrent compiler version java used -14)
