@@ -56,8 +56,8 @@ public class TwoDimensionalAutomaton {
     private Tiles changeState(ArrayList<Cell> neighborhood, Cell current){
         // current cell is not included in neighborhood list
 
-        return majorityDefault(neighborhood,current);
-        //return majorityModified(neighborhood,current);
+        //return majorityDefault(neighborhood,current);
+        return majorityModified(neighborhood,current);
         //return CGoL(neighborhood,current);
         //return lowDeath(neighborhood,current);
         //return mazentric(neighborhood,current);
