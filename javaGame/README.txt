@@ -1,0 +1,2 @@
+- Create empty poject - java version 8
+- replace src folder with src folder provided
